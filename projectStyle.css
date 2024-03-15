@@ -1,0 +1,73 @@
+.submit_btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+label {
+  color: white;
+}
+body {
+  background: linear-gradient(45deg, #11114f, #901010, #1a3a50);
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.sub_btn {
+  padding: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
+  border-radius: 20px;
+}
+
+.sub_btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: brown;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+thead {
+  background-color: black;
+}
+tr {
+  color: white;
+}
+
+tbody {
+  background-color: rgb(255, 255, 255);
+}
+
+td {
+  color: black;
+}
+#Update {
+  display: none;
+}
+
+.row {
+  display: inline;
+}
+
+.form-group input {
+  color: white;
+  background-color: black;
+}
+
+input::placeholder {
+  color: red;
+}
